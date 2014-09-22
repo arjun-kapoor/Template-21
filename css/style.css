@@ -1,0 +1,146 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:url(../images/body-bg.png) 0 0 repeat;
+	padding:46px 0 0 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	max-width:1008px;
+	margin:0 auto;
+}
+
+.logo{
+	width:128px;
+	height:85px;
+	margin:0 auto 67px;
+	display:block;
+}
+
+p.text1{
+	font-size:72px;
+	line-height:73px;
+	text-align:center;
+	font-weight:800;
+	color:#fff;
+	margin:0;
+	padding-bottom:6px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.text2{
+	font-size:24px;
+	line-height:26px;
+	text-align:center;
+	font-weight:300;
+	color:#fff;
+	margin:0;
+	padding-bottom:40px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.text3{
+	font-size:14px;
+	line-height:22px;
+	text-align:center;
+	font-weight:normal;
+	color:#deb2ed;
+	margin:0;
+	padding-left:150px;
+	padding-right:150px;
+	padding-bottom:20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a.learnmore{
+	background:url(../images/lrn-more.png) 0 0 no-repeat;
+	display:block;
+	width:192px;
+	margin:0 auto 90px;
+	height:58px;
+	padding:0 0 0 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	line-height:58px;
+	font-weight:300;
+	color:#deb2ed;
+	text-decoration:none;
+}
+
+a.learnmore:hover{
+	color:#c186d5;
+}
+
+.exdiv{
+	margin:0;
+	padding:0;
+}
+
+.exdiv .pure-u-sm-1-2{
+	margin:0 auto;
+	display:block;
+}
+
+.box4{
+	background:#4a283d;
+	opacity:0.7;
+	border-radius:30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	color:#d1aac7;
+	line-height:16px;
+	text-align:center;
+	padding:8px 0;
+	text-transform:uppercase;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 900px) {
+	
+}
+
+@media only screen and (max-width: 750px) {
+	
+	body{
+		background-size:cover;
+	}
+	
+	p.text1{
+		font-size:25px;
+		line-height:26px;
+	}
+	
+	p.text2{
+		font-size:13px;
+		line-height:16px;
+	}
+	
+	p.text3{
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	.container{
+		padding:0 9px;
+	}
+	
+	a.learnmore{
+		margin-bottom:40px;
+	}
+	
+	.exdiv{
+		padding-bottom:20px;
+	}
+	
+	.box4{
+		padding:8px 15px;
+	}
+}
+
+
+
